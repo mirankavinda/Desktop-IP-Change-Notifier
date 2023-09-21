@@ -10,7 +10,7 @@ def get_ip_address():
             s.settimeout(0.1) 
             # Google's DNS server
             s.connect(("8.8.8.8", 80))
-            ip_address = s.getsocktname()[0]
+            ip_address = s.getsockname()[0]
         return ip_address
     except Exception as e:
         print("Error getting IP address:", str(e))
