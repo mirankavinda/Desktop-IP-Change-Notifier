@@ -38,7 +38,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/project-name.git
+   git clone https://github.com/mirankavinda/Desktop-IP-Changer-Notifier.git
 
 2. Change the project directory:
    ```bash
